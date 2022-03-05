@@ -1,0 +1,37 @@
+.app__specification-grid_box h3 {
+  font-size: 60px;
+  font-weight: 900;
+  color: #4a7aec;
+  text-align: center;
+}
+.app__specification-grid_box .tagline {
+  font-family: var(--font_base);
+  font-weight: 700;
+  color: #404551;
+  line-height: 1.2;
+  text-align: center;
+  font-size: 24px;
+}
+.app__specification-grid_box .description {
+  font-family: var(--font_base);
+  color: #abadbe;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 0;
+  text-align: center;
+  line-height: 1.9;
+}
+.clients_img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+.app__specification-grid1 {
+  padding: 2rem 0;
+
+  transition: 0.3s all ease-in;
+}
+.app__specification-grid1:hover {
+  box-shadow: rgba(149, 157, 165, 0.5) 0px 10px 34px;
+  cursor: pointer;
+}

@@ -1,0 +1,47 @@
+.app__logo img {
+  color: white;
+}
+.app__navbar {
+  padding: 1.5rem 0;
+}
+.app__navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app__navbar-menu-links {
+  display: flex;
+  margin-bottom: 0;
+  gap: 1rem;
+  list-style: none;
+}
+
+.app__navbar-menu-links li a {
+  color: #fff;
+  font-family: var(--font_base);
+  font-weight: 700;
+  padding: 0 10px;
+  text-decoration: none;
+  transition: 0.4s all ease-in;
+}
+.app__navbar-menu-links li :hover {
+  color: #007bff;
+}
+
+.app__navbar-login h5 {
+  color: #007bff;
+  transition: 0.4s all ease-in;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+
+.app__navbar-login :hover {
+  color: white;
+}
+
+@media (max-width: 970px) {
+  .app__navbar-menu-links {
+    display: none;
+  }
+} ;

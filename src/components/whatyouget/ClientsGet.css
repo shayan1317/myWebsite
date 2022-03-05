@@ -1,0 +1,88 @@
+.app__clients-get {
+  background-color: #211b31;
+  padding-top: 7rem;
+  margin: 3rem 0;
+}
+.app__clients-get .info .para {
+  font-family: var(--font_base);
+  color: #abadbe;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 0;
+  line-height: 1.9;
+  margin-top: 2rem;
+}
+.app__getClients-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10rem;
+  padding-bottom: 3rem;
+}
+
+.featured_img img {
+  max-width: 100%;
+  height: auto;
+}
+.app_bar_chart {
+  margin: 2rem 0;
+}
+.app_bar_chart .chart {
+  margin: 1rem 0;
+}
+
+.app_bar_chart .chart p {
+  font-family: "Roboto", sans-serif;
+  color: #abadbe;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 0;
+  line-height: 1.9;
+}
+
+.bar {
+  height: 5px;
+  background-color: #fff;
+}
+.fill1 {
+  width: 70%;
+  height: 5px;
+  display: block;
+  background-color: #4a7aec;
+}
+
+.fill2 {
+  width: 90%;
+  height: 5px;
+  display: block;
+  background-color: #4a7aec;
+}
+.fill3 {
+  width: 60%;
+  height: 5px;
+  display: block;
+  background-color: #4a7aec;
+}
+.app__grid_clients {
+  background-color: #fff;
+}
+.app__grid_clients .clients_grid_box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+@media (max-width: 660px) {
+  .app__getClients-content {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 1rem;
+  }
+  .app__grid_clients .clients_grid_box {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1rem;
+  }
+}
+@media (max-width: 470px) {
+  .app__grid_clients .clients_grid_box {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 1rem;
+  }
+} ;

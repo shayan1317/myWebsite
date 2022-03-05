@@ -1,0 +1,16 @@
+.app__workflow-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 5rem;
+  gap: 4rem;
+}
+.app__workflow {
+  padding: 5rem 0;
+}
+
+@media (max-width: 760px) {
+  .app__workflow-grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+} ;

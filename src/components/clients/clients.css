@@ -1,0 +1,15 @@
+.app__clients {
+  background-color: #fff;
+  margin: 4rem 0;
+}
+.app__clients-logos {
+  margin-top: 4rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.app__clients-logos > img {
+  max-width: 170px;
+  height: 42px;
+}

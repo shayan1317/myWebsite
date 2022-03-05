@@ -1,0 +1,20 @@
+.app__shout {
+  border: 1px solid black;
+  padding: 5rem 0;
+  background-color: rgba(33, 27, 49, 0.88);
+  text-align: center;
+}
+
+.contact_us {
+  background-color: #4a7aec;
+  padding: 0 30px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+
+  line-height: 3;
+  margin-top: 4.5rem;
+  border: none;
+  font-family: var(--font_base);
+  border-radius: 70px;
+}

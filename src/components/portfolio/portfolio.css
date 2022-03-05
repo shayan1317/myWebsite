@@ -1,0 +1,47 @@
+.list {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.list li {
+  font-family: "Roboto", sans-serif;
+  color: #abadbe;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 0;
+  line-height: 1.9;
+  padding: 0 0.6rem;
+  transition: 0.5s all ease-in;
+}
+
+.list li:hover {
+  color: #007bff;
+  cursor: pointer;
+}
+.grid_images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 4rem;
+}
+.grid_images .image {
+  overflow: hidden;
+}
+.grid_images img {
+  width: 100%;
+
+  margin-top: 0;
+  transition: 0.4s all ease-in;
+}
+
+.grid_images img:hover {
+  transform: scale(1.3);
+}
+
+@media (max-width: 570px) {
+  .grid_images {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

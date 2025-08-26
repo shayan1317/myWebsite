@@ -1,5 +1,3 @@
-import { Flag } from "@mui/icons-material/Flag";
-import React from "react";
 import "./specification.css";
 function Specification({ tagline, img_src, flag, number }) {
   return (

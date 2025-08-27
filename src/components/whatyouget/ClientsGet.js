@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-
+import "./ClientsGet.css";
 // Mock components since they're not available
 const Heading = ({ flag, small_title, large_title }) => (
   <div className="heading-container">

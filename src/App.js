@@ -12,13 +12,25 @@ function App() {
     <div className="app">
       <div className="app_main">
         <Navbar />
-        <Header />
+        <section id="header" name="header">
+          <Header />
+        </section>
       </div>
-      <Clients />
-      <ClientsGet />
-      <Portfolio />
-      <WorkFlow />
-      <Shout />
+      <section id="clients" name="clients">
+        <Clients />
+      </section>
+      <section id="clientsGet" name="clientsGet">
+        <ClientsGet />
+      </section>
+      <section id="portfolio" name="portfolio">
+        <Portfolio />
+      </section>
+      <section id="workflow" name="workflow">
+        <WorkFlow />
+      </section>
+      <section id="shout" name="shout">
+        <Shout />
+      </section>
     </div>
   );
 }
